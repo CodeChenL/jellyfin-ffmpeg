@@ -62,6 +62,7 @@ CONFIG_x86 := --arch=amd64 \
 	--enable-nvenc \
 
 CONFIG_ARM_COMMON := --toolchain=hardened \
+	--enable-vulkan \
 	--enable-cross-compile \
 	--enable-rkmpp \
 	--enable-rkrga \

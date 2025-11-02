@@ -1909,7 +1909,8 @@ static int vulkan_device_derive(AVHWDeviceContext *ctx,
     }
 #endif
 #if CONFIG_LIBDRM
-    case AV_HWDEVICE_TYPE_DRM: {
+    case AV_HWDEVICE_TYPE_DRM:
+    case AV_HWDEVICE_TYPE_RKMPP: {
         int err;
         struct stat drm_node_info;
         drmDevice *drm_dev_info;
