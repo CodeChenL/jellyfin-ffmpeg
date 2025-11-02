@@ -50,7 +50,8 @@ Build-Depends:
 # HTML documentation
  texinfo,
 # assembler optimizations
- nasm
+ nasm,
+ libvulkan-dev
 
 Package: jellyfin-ffmpeg7
 Architecture: amd64 arm64
